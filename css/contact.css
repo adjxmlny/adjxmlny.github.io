@@ -1,0 +1,231 @@
+body
+{
+    background-image: url(../img/backgroundimg.jpg);
+    background-size: cover;
+    background-position: center 0;
+    margin: 0;
+}
+
+#nav-item a
+{
+    color: #333;
+    text-decoration: none;
+}
+
+#nav-item a:hover 
+{
+    color: red;
+    text-decoration: underline;
+}
+
+header
+{
+    height: 100px;
+}
+
+nav
+{
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+footer
+{
+    height: 40px;
+    margin-top: 25px;
+}
+
+#main-text
+{
+    height: auto;
+    width: 1000px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 50px 0 50px 0;
+}
+
+#header
+{
+    width: 1000px ;
+    height: 80px;
+    padding: 10px 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header h1
+{
+    font-family: "FZShuTi";
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0 20px 0;
+}
+
+#navigation
+{
+    display: table;
+    height: 50px;
+    width: 443px;
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#tablerow
+{
+    display: table-row;
+}
+
+ul
+{
+    list-style: none;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+
+}
+
+#nav-item
+{
+    display: inline-block;
+    height: 35px;
+    vertical-align: middle;
+    padding: 15px 0 0 0;
+}
+
+#nav-item-name-now
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0aa344;
+}
+
+#nav-item-name
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+#footer-style
+{
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 12px;
+    margin-top: 0;
+}
+
+#tittle
+{
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tittle h2
+{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0aa344;
+}
+
+#main-text p
+{
+    text-align: center;
+    line-height: 15px;
+}
+
+#questionaire
+{
+    width:600px;
+    margin: 0 auto 0 auto;
+}
+
+#answer
+{
+    padding: 11px 24px 16px 37px;
+    text-align: center;
+}
+
+#set-lable
+{
+    width: 36px;
+    height: 20px;
+    padding-right: 12px;
+    padding-top: 3.600px;
+}
+
+#span-style
+{
+    padding-left: 12px;
+    padding-top: 3.600px;
+}
+
+#answer li
+{
+    margin-top: 20px;
+}
+
+#textarea-empty
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+#navigator-table
+{
+    width: 600px;
+    padding: 1px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ui-button {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-right: 1em;
+    text-decoration: none !important;
+    cursor: pointer;
+    text-align: center;
+    zoom: 1;
+    overflow: visible;
+    border-radius:5px;
+    border: 1px solid #aed0ea;
+    background: #d7ebf9 url(../img/ui-bg_glass_80_d7ebf9_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #0070a3;
+}
+
+#ui-button-text
+{
+    padding: .4em 1em;
+    display: block;
+    line-height: 1.4;
+}

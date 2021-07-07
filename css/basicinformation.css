@@ -1,0 +1,194 @@
+body
+{
+    background-color: #f3f9f1;
+    background-image: url(../img/backgroundimg.jpg);
+    background-size: cover;
+    background-position: center 0;
+    margin: 0;
+}
+
+#nav-item a
+{
+    color: #333;
+    text-decoration: none;
+}
+
+#nav-item a:hover 
+{
+    color: red;
+    text-decoration: underline;
+}
+
+header
+{
+    height: 100px;
+}
+
+nav
+{
+    height: 50px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: white;
+
+}
+
+footer
+{
+    height: 40px;
+    margin-top: 25px;
+}
+
+#main-text
+{
+    height: auto;
+    width: 1000px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 50px 0 50px 0;
+}
+
+#header
+{
+    width: 1000px ;
+    height: 80px;
+    padding: 10px 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header h1
+{
+    font-family: "FZShuTi";
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0 20px 0;
+}
+
+#navigation
+{
+    display: table;
+    height: 50px;
+    width: 443px;
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#tablerow
+{
+    display: table-row;
+}
+
+ul
+{
+    list-style: none;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+
+}
+
+#nav-item
+{
+    display: inline-block;
+    height: 35px;
+    vertical-align: middle;
+    padding: 15px 0 0 0;
+}
+
+#nav-item-name-now
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0aa344;
+}
+
+#nav-item-name
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+#footer-style
+{
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 12px;
+    margin-top: 0;
+}
+
+#table-head
+{
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-head h2
+{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0aa344;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+td
+{
+    width: 200px;
+}
+
+#Self-evaluation
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-indent: 2em;
+}
+
+#education
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 10px;
+}
+
+#education li
+{
+    text-align: left;
+    padding-left: 80px;
+}
